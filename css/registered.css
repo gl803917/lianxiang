@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.clear::after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+.nav {
+	width: 100%;
+	position: relative;
+}
+
+.nav .lef img {
+	display: block;
+}
+
+.nav .rgt {
+	width: 85%;
+	padding: 12px 73px 7px 34px;
+	position: relative;
+}
+
+.nav .rgt a {
+	color: #8d8d8d;
+	font-size: 15px;
+}
+
+.nav .rgt ul>li {
+	float: left;
+	margin-right: 20px;
+}
+.nav .rgt .pho li:nth-child(1) img {
+	margin-right: 0;
+}
+.hide img{
+	width: 198px;
+	height: 105px;
+	position: absolute;
+	top: 43pxpx;
+	right: 2px;
+	display: none;
+}
+.banner{
+	width: 100%;
+	border-top: 1px solid rgba(255,255,255);
+	background-color: #f7f7f7;
+	border-bottom: 1px solid rgba(255,255,255);
+}
+.banner form{
+	padding: 52px 249px 64px  249px;
+	box-sizing: border-box;
+	background-color: white;
+	margin: 60px 246.5px 140px 246.5px;
+}
+.banner form .box .up input{
+	padding-left: 10px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+}
+.banner form .box{
+	width: 358px;
+	/* height: 449px; */
+}
+.banner form .box .up>div:nth-child(1){
+	text-align: center;
+	font-size: 26px;
+	margin-bottom:40px;
+}
+
+.banner form .box input{
+	outline: none;
+}
+.banner form .box .up .phoe input{
+	width: 358px;
+	height:48px;
+	margin-bottom: 15px;
+}
+.banner form .box .up .txt{
+	margin-bottom: 15px;
+}
+.banner form .box .txt{
+	border: 1px solid #ccc;
+}
+.banner form .box .up .txt input,.banner form .box .up .txt button{
+	height: 48px;
+	box-sizing: border-box;
+	outline: none;
+	border: 0;
+}
+.banner form .box .up .txt button{
+	position: relative;
+	top: 1px;
+	padding: 0 18px;
+	border: 0;
+	margin-left:73px;
+	color: #007AFF;
+	border-left: 1px solid #ccc;
+}
+.banner form .box .up .psw input{
+	width: 358px;
+	height:48px;
+	margin-bottom: 15px;
+}
+.banner form .box  .btn button{
+	width: 100%;
+	padding:15px 0;
+	border: 0;
+	background-color:rgba(239,50,41);
+	color: #fff;
+	font-size: 14px;
+	outline: none;
+	border-radius: 4px;
+}
+.banner form .fot{
+	font-size: 12px;
+	margin-top:5px;
+	color: #888;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ccc;
+}
+.banner form .fot .big{
+	font-size: 14px;
+	color: #555;
+	font-weight: 700;
+}
+.banner form .footer{
+	margin-top: 8px;
+	font-size: 13px;
+}
+.banner form .footer>div:nth-child(1) span{
+	font-size: 14px;
+	color: #888;
+}
+.banner form .footer a{
+	font-size: 14px;
+	color: #1E9FFF;
+}
+.banner form .footer{
+	margin-top: 6px;
+}
+.banner form  .hide{
+	color: #FD482C;
+	font-size: 12px;
+	padding-left: 10px;
+	display: none;
+	margin-bottom: 10px;
+}
+.banner form  .hide2{
+	color: lawngreen;
+	font-size: 12px;
+	padding-left: 10px;
+	display: none;
+	margin-bottom: 10px;
+}
